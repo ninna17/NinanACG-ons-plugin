@@ -1,0 +1,28 @@
+# 插件包内的许可声明，属于发布产物，不随源码仓库发布
+SOURCE.md
+
+# 构建产物
+build/
+out/
+dist/
+*.zip
+*.apk
+*.aab
+*.dex
+*.class
+*.so
+
+# 本地配置
+local.properties
+.gradle/
+*.iml
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+
+# 系统垃圾
+.DS_Store
+Thumbs.db
