@@ -1,6 +1,6 @@
 #!/bin/bash
 # 准备 ONS 插件的构建工作区（在 Linux/WSL/虚拟机里运行；需要 git、curl、tar）。
-# 用法: ./prepare.sh <工作区目录>      例如 ./prepare.sh /tmp/_emu_ons
+# 用法: ./prepare.sh <工作区目录>      例如 ./prepare.sh /tmp/Plugins/ons/work
 # 工作区路径要尽量短：Windows 上编译 SDL 等第三方库时容易超过 260 字符路径限制。
 set -euo pipefail
 

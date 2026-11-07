@@ -32,7 +32,7 @@ LICENSE                   GPL v2 协议
 1. 准备源码工作区：
 
    ```bash
-   ./prepare.sh /short/path/_emu_ons
+   ./prepare.sh /short/path/Plugins/ons/work
    ```
 
    它会切到固定提交、用 `script/_fetch.sh` 下载好 SDL2 等第三方库、
@@ -42,7 +42,7 @@ LICENSE                   GPL v2 协议
 2. 用 Android SDK / NDK 编译工程：
 
    ```bash
-   cd /short/path/_emu_ons/up/src/onsyuri_android
+   cd /short/path/Plugins/ons/work/up/src/onsyuri_android
    ./gradlew :app:assembleDebug
    ```
 
